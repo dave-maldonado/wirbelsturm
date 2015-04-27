@@ -1,4 +1,9 @@
 ---
 classes:
   - storm::nimbus
+  - storm::drpc
   - storm::ui
+
+# Storm
+storm::drpc_servers:
+  - 'nimbus1'
